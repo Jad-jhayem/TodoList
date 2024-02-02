@@ -26,7 +26,7 @@ Getting Started
 
 bash
 
-git clone https://github.com/your-username/vue-pinia-todolist.git
+git clone https://github.com/Jad-jhayem/TodoList
 cd vue-pinia-todolist
 
     Install dependencies:
@@ -39,9 +39,9 @@ npm install
 
 bash
 
-npm run serve
+npm run dev
 
-Visit http://localhost:8080 in your browser to see the TodoList app in action.
+Visit given url in your browser to see the TodoList app in action.
 Usage
 
     Add a new task:
