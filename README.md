@@ -1,29 +1,60 @@
-# todo-app
+#Vue.js TodoList with Pinia
 
-This template should help get you started developing with Vue 3 in Vite.
+A simple TodoList application built with Vue.js and Pinia for state management.
+Project Overview
 
-## Recommended IDE Setup
+This project implements a basic TodoList application where users can add, mark as complete, and remove tasks. The application is built using Vue.js for the frontend and Pinia for state management.
+Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+    Add new tasks to the TodoList.
+    Mark tasks as complete.
+    Remove tasks from the TodoList.
 
-## Customize configuration
+Project Structure
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+The project structure is organized as follows:
 
-## Project Setup
+    components/: Contains Vue components for the TodoList app.
+        TodoApp.vue: The main component rendering the TodoList app.
+        TodoForm.vue: Component for adding new tasks.
+        TodoList.vue: Component for displaying and managing tasks.
+    stores/: Contains the Pinia store (todoList.js) for managing the application state.
 
-```sh
+Getting Started
+
+    Clone the repository:
+
+bash
+
+git clone https://github.com/your-username/vue-pinia-todolist.git
+cd vue-pinia-todolist
+
+    Install dependencies:
+
+bash
+
 npm install
-```
 
-### Compile and Hot-Reload for Development
+    Run the application:
 
-```sh
-npm run dev
-```
+bash
 
-### Compile and Minify for Production
+npm run serve
 
-```sh
-npm run build
-```
+Visit http://localhost:8080 in your browser to see the TodoList app in action.
+Usage
+
+    Add a new task:
+        Type the task in the input field in the "Add a new task" section.
+        Click the "Add" button.
+
+    Mark as complete:
+        Check the checkbox next to a task to mark it as complete.
+
+    Remove a task:
+        Click the "Remove" button next to a task to remove it from the list.
+
+Technologies Used
+
+    Vue.js
+    Pinia
